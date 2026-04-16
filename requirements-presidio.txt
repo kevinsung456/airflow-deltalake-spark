@@ -1,0 +1,12 @@
+# ============================================================
+# requirements-presidio.txt
+# detection_engine='presidio' 사용 시 추가 설치
+#
+#   pip install -r requirements-presidio.txt
+#   python -m spacy download ko_core_news_sm   # 한국어 모델 (선택)
+#   python -m spacy download en_core_web_lg    # 영어 모델
+# ============================================================
+
+presidio-analyzer>=2.2.0
+presidio-anonymizer>=2.2.0
+spacy>=3.6.0
